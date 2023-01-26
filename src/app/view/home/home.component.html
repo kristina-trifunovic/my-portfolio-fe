@@ -1,0 +1,45 @@
+<div class="row">
+  <mat-sidenav-container fxFlexFill class="example-container">
+    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true">
+      <div fxLayout="column">
+        <button mat-button>Education</button>
+        <button mat-button>Work</button>
+        <button mat-button>Projects</button>
+        <button mat-button>Hobbies</button>
+      </div>
+    </mat-sidenav>
+  </mat-sidenav-container>
+  <aside class="col-lg-3">
+    <img src="assets/images/portrait.png" class="img-fluid my-img" alt="Portrait photo">
+  </aside>
+  <main class="col-lg-4">
+    <mat-toolbar class="d-flex justify-content-end">
+      <div fxShow="true" fxHide.lt-md="true">
+        <button mat-button>Education</button>
+        <button mat-button>Work</button>
+        <button mat-button>Projects</button>
+        <button mat-button>Hobbies</button>
+      </div>
+      <div fxShow="true" fxHide.gt-sm="true">
+        <button mat-icon-button (click)="sidenav.toggle()">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+    </mat-toolbar>
+    <div class="d-flex justify-content-center">
+      <article class="d-flex flex-column justify-content-center align-items-start vh-80">
+        <h1 class="display-2">Hi, I'm Kristina</h1>
+        <p class="lead">Junior Full Stack Developer</p>
+      </article>
+      <article class="d-flex flex-column justify-content-center align-items-center">
+        <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+          <mat-icon>more_vert</mat-icon>
+        </button>
+        <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+          <mat-icon>more_vert</mat-icon>
+        </button>
+      </article>
+    </div>
+    
+  </main>
+</div>

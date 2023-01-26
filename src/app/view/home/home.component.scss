@@ -1,0 +1,13 @@
+div, mat-toolbar {
+  background-color: #eceee5;
+}
+
+button {
+  margin: 0 3rem;
+}
+
+@media (max-width:629px) {
+  img.my-img {
+    display: none;
+  }
+}
