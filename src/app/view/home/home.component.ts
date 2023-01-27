@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {faInstagram, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'home',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-
+  linkedIn = faLinkedin;
+  gitHub = faGithub;
+  email = faEnvelope;
+  instagram = faInstagram;
 }

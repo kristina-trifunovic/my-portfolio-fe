@@ -1,0 +1,9 @@
+$base-color: #e8e6df;
+$light-grey-violet: #aba3a4;
+$light-grey-violet-20-darker: #898283;
+$dark-grey-violet: #746c7c;
+
+div.vh-100 {
+  background: rgb(232,230,223);
+  background: linear-gradient($base-color 0%, $light-grey-violet 100%);
+}
