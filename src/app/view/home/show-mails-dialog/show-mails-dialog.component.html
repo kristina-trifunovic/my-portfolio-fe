@@ -1,7 +1,7 @@
 <h1 mat-dialog-title>Click on mail you want to copy</h1>
 <div mat-dialog-content>
-  <p class="p-2"><strong>Primary email: kikatrifunovic00@icloud.com</strong></p>
-  <p class="p-2">Secondary email: kikatrifunovic00@gmail.com</p>
+  <p class="p-2" (click)="copy('kikatrifunovic00@icloud.com')"><strong>Primary email: kikatrifunovic00@icloud.com</strong></p>
+  <p class="p-2" (click)="copy('kikatrifunovic00@gmail.com')">Secondary email: kikatrifunovic00@gmail.com</p>
 </div>
 <div mat-dialog-actions>
   <button mat-button mat-dialog-close>Close</button>

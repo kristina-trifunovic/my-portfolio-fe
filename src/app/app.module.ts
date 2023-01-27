@@ -18,6 +18,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatDialogModule} from '@angular/material/dialog';
+import {ClipboardModule} from '@angular/cdk/clipboard';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ShowMailsDialogComponent } from './view/home/show-mails-dialog/show-mails-dialog.component';
@@ -43,6 +44,7 @@ import { ShowMailsDialogComponent } from './view/home/show-mails-dialog/show-mai
     MatIconModule,
     MatSnackBarModule,
     MatDialogModule,
+    ClipboardModule,
     FontAwesomeModule,
   ],
   providers: [],
