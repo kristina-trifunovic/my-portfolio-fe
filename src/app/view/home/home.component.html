@@ -13,9 +13,11 @@
   <div class="heading-content">
     <h1  class="display-2">Hi, I'm Kristina</h1>
     <p class="lead">Junior Full Stack Developer</p>
-    <fa-icon [icon]="email"></fa-icon>
-    <fa-icon [icon]="linkedIn"></fa-icon>
-    <fa-icon [icon]="gitHub"></fa-icon>
-    <fa-icon [icon]="instagram"></fa-icon>
+    <div class="d-flex flex-wrap">
+      <div (click)="openDialog()"><fa-icon [icon]="email"></fa-icon></div>
+      <div (click)="openDialog()"><fa-icon [icon]="linkedIn"></fa-icon></div>
+      <div (click)="openDialog()"><fa-icon [icon]="gitHub"></fa-icon></div>
+      <div (click)="openDialog()"><fa-icon [icon]="instagram"></fa-icon></div>
+    </div>
   </div>
 </div>

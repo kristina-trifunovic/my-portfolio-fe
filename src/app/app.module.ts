@@ -16,7 +16,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatDialogModule} from '@angular/material/dialog';
+
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ShowMailsDialogComponent } from './view/home/show-mails-dialog/show-mails-dialog.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     WorkComponent,
     ProjectsComponent,
     HobbiesComponent,
-    ContactComponent
+    ContactComponent,
+    ShowMailsDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +41,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    MatSnackBarModule,
+    MatDialogModule,
     FontAwesomeModule,
   ],
   providers: [],
