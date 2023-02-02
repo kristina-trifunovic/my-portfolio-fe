@@ -22,7 +22,7 @@ import {MatCardModule} from '@angular/material/card';
 import {ClipboardModule} from '@angular/cdk/clipboard';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ShowMailsDialogComponent } from './view/home/show-mails-dialog/show-mails-dialog.component';
+import { ShowEmailsDialogComponent } from './view/home/show-emails-dialog/show-emails-dialog.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,7 @@ import { ShowMailsDialogComponent } from './view/home/show-mails-dialog/show-mai
     ProjectsComponent,
     HobbiesComponent,
     ContactComponent,
-    ShowMailsDialogComponent
+    ShowEmailsDialogComponent
   ],
   imports: [
     BrowserModule,

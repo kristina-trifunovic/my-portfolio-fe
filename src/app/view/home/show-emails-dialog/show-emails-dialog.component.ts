@@ -3,11 +3,11 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { Clipboard } from '@angular/cdk/clipboard';
 
 @Component({
-  selector: 'app-show-mails-dialog',
-  templateUrl: './show-mails-dialog.component.html',
-  styleUrls: ['./show-mails-dialog.component.scss']
+  selector: 'show-emails-dialog',
+  templateUrl: './show-emails-dialog.component.html',
+  styleUrls: ['./show-emails-dialog.component.scss']
 })
-export class ShowMailsDialogComponent {
+export class ShowEmailsDialogComponent {
   constructor(private snackBar: MatSnackBar,
     private clipboard: Clipboard) {}
 
