@@ -1,4 +1,5 @@
-<mat-toolbar class="navbar navbar-expand-lg d-flex justify-content-center">
+<mat-toolbar class="navbar navbar-expand-lg d-flex justify-content-center" 
+  [ngClass]="{'dark': mode === modes.DARK, 'light': mode === modes.LIGHT}">
   <button mat-button>Education</button>
   <button mat-button>Work</button>
   <button mat-button>Projects</button>

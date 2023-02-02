@@ -1,0 +1,13 @@
+section {
+  height: 100vh;
+}
+
+.mode {
+  position: fixed;
+  z-index: 998;
+  top: 4%;
+  right: 2%;
+  :hover {
+    cursor: pointer;
+  }
+}

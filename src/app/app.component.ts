@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { PageScrollService } from 'ngx-page-scroll-core';
+import { faMoon, faSun } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +10,16 @@ import { PageScrollService } from 'ngx-page-scroll-core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  icon = faMoon;
   activeSection = 1;
+  mode = MODE.LIGHT;
+  modes = MODE;
+
   constructor(
     private pageScrollService: PageScrollService,
     @Inject(DOCUMENT) private document: any
   ) {}
+  
   fullPageScroll(e: HTMLElement, i:any) {
     this.pageScrollService.scroll({
       scrollTarget: e,
@@ -21,4 +27,14 @@ export class AppComponent {
     });
     this.activeSection = i;
   }
+
+  switchTheme() {
+    this.icon = this.icon === faSun ? faMoon : faSun;
+    this.mode = this.mode === MODE.LIGHT ? MODE.DARK : MODE.LIGHT;
+  }
+}
+
+export enum MODE {
+  LIGHT = 'light',
+  DARK = 'dark'
 }
