@@ -1,23 +1,27 @@
-<div class="vh-100 pastel d-flex justify-content-end">
-  <mat-toolbar class="navbar navbar-expand-lg d-flex justify-content-center">
-    <button mat-button>Education</button>
-    <button mat-button>Work</button>
-    <button mat-button>Projects</button>
-    <button mat-button>Hobbies</button>
-  </mat-toolbar>
-
-  <div class="background align-self-end">
-    <img src="../assets/images/portrait2.png" class="img-fluid" alt="Portrait">
-  </div>
-
-  <div class="heading-content">
-    <h1  class="display-2">Hi, I'm Kristina</h1>
-    <p class="lead">Junior Full Stack Developer</p>
-    <div class="d-flex flex-wrap">
-      <div (click)="openDialog()"><fa-icon [icon]="email"></fa-icon></div>
-      <div (click)="navigateToLinkedIn()"><fa-icon [icon]="linkedIn"></fa-icon></div>
-      <div (click)="navigateToGitHub()"><fa-icon [icon]="gitHub"></fa-icon></div>
-      <!-- <div (click)="navigateToInstagram()"><fa-icon [icon]="instagram"></fa-icon></div> -->
-    </div>
-  </div>
+<mat-toolbar class="navbar navbar-expand-lg d-flex justify-content-center">
+  <button mat-button>Education</button>
+  <button mat-button>Work</button>
+  <button mat-button>Projects</button>
+  <button mat-button>Hobbies</button>
+</mat-toolbar>
+<div class="container">
+  <mat-card>
+    <mat-card-content>
+      <div class="row align-items-center">
+        <div class="col-lg-8 col-md-12">
+          <h1  class="display-2">Hi, I'm Kristina</h1>
+          <p class="lead">Junior Full Stack Developer</p>
+          <div class="d-flex flex-wrap">
+            <div (click)="openDialog()"><fa-icon [icon]="email"></fa-icon></div>
+            <div (click)="navigateToLinkedIn()"><fa-icon [icon]="linkedIn"></fa-icon></div>
+            <div (click)="navigateToGitHub()"><fa-icon [icon]="gitHub"></fa-icon></div>
+            <!-- <div (click)="navigateToInstagram()"><fa-icon [icon]="instagram"></fa-icon></div> -->
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 d-flex justify-content-center">
+          <img src="../assets/images/portrait.png" class="img-fluid mask" alt="Portrait">
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
 </div>
