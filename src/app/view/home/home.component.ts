@@ -2,7 +2,9 @@ import {Component, Input} from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { saveAs } from 'file-saver';
 import { MODE } from 'src/app/app.component';
+import { FileService } from 'src/app/service/file.service';
 import { ShowEmailsDialogComponent } from './show-emails-dialog/show-emails-dialog.component';
 
 @Component({
@@ -28,7 +30,8 @@ export class HomeComponent {
     return this._mode;
   }
 
-  constructor(public dialog: MatDialog) {
+  constructor(public dialog: MatDialog,
+              private fileService: FileService) {
   }
 
   openDialog() {
@@ -44,6 +47,6 @@ export class HomeComponent {
   }
 
   downloadCV() {
-    
+    this.fileService.downloadCV().subscribe((data: any) => saveAs(data, 'Kristina-Trifunovic-CV.pdf'));
   }
 }

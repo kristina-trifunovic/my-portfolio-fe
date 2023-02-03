@@ -7,9 +7,9 @@ import { Injectable } from '@angular/core';
 export class EducationService {
   pathService = '/assets/data/education.json';
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private http: HttpClient) { }
 
   loadEducation() {
-    return this.httpClient.get(this.pathService);
+    return this.http.get(this.pathService);
   }
 }
