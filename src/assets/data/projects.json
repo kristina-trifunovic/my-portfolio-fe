@@ -1,0 +1,24 @@
+{
+  "list": [
+    {
+      "name": "Student Service BE",
+      "github": "https://github.com/kristina-trifunovic/student-service-be",
+      "description": "This is a BE part (done in Spring Boot framework) of the application which contains a data for students, professors, exams, exam periods... Professor can add exam, student can apply to an exam, professor can then insert a grade for students exam."
+    },
+    {
+      "name": "Student Service FE",
+      "github": "https://github.com/kristina-trifunovic/student-service-fe",
+      "description": "This is a FE part (done in Angular framework) of the application which contains a data for students, professors, exams, exam periods... Professor can add exam, student can apply to an exam, professor can then insert a grade for students exam."
+    },
+    {
+      "name": "Atersir Idrico FE",
+      "github": "",
+      "description": "FE app for Italian company Atersir Idrico done in Angular using Micro-Frontends. App contains interceptors, custom pipes, custom components..."
+    },
+    {
+      "name": "AngularJS app for a new company",
+      "github": "",
+      "description": "onboarding..."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+$light-purple: #d2cbf6;
+
+h2 {
+  margin-top: 1em;
+}
+
+.mat-stepper-vertical {
+  background-color: $light-purple;
+}
+
+.font-size-sm {
+  font-size: small;
+}
+
+@media screen and (min-width: 1000px) {
+  .mat-stepper-vertical {
+    margin: 3em;
+  }
+}

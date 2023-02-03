@@ -1,1 +1,15 @@
-<p>work works!</p>
+<div class="d-flex justify-content-center align-items-center flex-column">
+  <h2 class="display-4">Qualification</h2>
+  <mat-stepper orientation="vertical">
+    <mat-step *ngFor="let work of workArray; let i=index">
+      <ng-template matStepLabel>{{work.title}}</ng-template>
+      <ng-template matStepContent>
+        <p>{{work.company}}</p>
+        <p class="font-size-sm">{{work.location}}</p>
+        <p class="font-size-sm">{{work.from}} - {{work.to}}</p>
+        <button mat-button matStepperPrevious *ngIf="i != 0">Back</button>
+        <button mat-button matStepperNext *ngIf="i != workArray.length - 1">Next</button>
+      </ng-template>
+    </mat-step>
+  </mat-stepper>
+</div>

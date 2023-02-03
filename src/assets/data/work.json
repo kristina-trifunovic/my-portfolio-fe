@@ -1,0 +1,22 @@
+{
+  "list": [
+    {
+      "company": "Engineering Software Lab d.o.o.",
+      "title": "Junior Java Developer Intern",
+      "location": "Belgrade - Remote Work",
+      "from": "March 2022",
+      "to": "August 2022",
+      "time": "6 months",
+      "description": "Basic Java practices, SOLID principles, OCP, OCA, Hibernate, Servlets, JSP pages, Spring, Spring Boot, JavaScript, CSS, SCSS, Bootstrap, Angular 2+"
+    },
+    {
+      "company": "Engineering Software Lab d.o.o.",
+      "title": "Junior Full Stack Developer",
+      "location": "Belgrade - Remote Work",
+      "from": "September 2022",
+      "to": "current",
+      "time": "5+ months",
+      "description": ""
+    }
+  ]
+}
