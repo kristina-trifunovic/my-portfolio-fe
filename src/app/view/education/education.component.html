@@ -1,16 +1,15 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-4 col-md-6 col-12" *ngFor="let education of educations">
-      <mat-card>
-        <mat-card-header>
-          <mat-card-title>{{education.name}}</mat-card-title>
-          <mat-card-subtitle>{{education.type}}</mat-card-subtitle>
-        </mat-card-header>
-        <mat-card-content class="d-flex align-items-center">
-          <span>Location: {{education.place}}</span>
-          <span>{{education.from}} - {{education.to}}</span>
-        </mat-card-content>
-      </mat-card>
+      <div class="card">
+        <h5 class="card-header">{{education.name}}</h5>
+        <div class="card-body">
+          <h5 class="card-title">{{education.department}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{education.type}}</h6>
+          <p class="card-text">Place: {{education.place}}</p>
+          <p class="card-text">Period: {{education.from}} - {{education.to}}</p>
+        </div>
+      </div>
     </div>
 </div>
 </div>
