@@ -2,9 +2,6 @@
   margin: 2rem;
   height: 80vh;
   border-radius: 10px;
-  .mat-mdc-card-content {
-    padding-top: 5em;
-  }
 }
 
 img {
@@ -22,12 +19,25 @@ fa-icon {
   background-color: #A95ACB !important;
   color: whitesmoke !important;
   padding: 1em 0;
-  // width: 10em;
-  // height: 4em;
 }
 
 @media screen and (max-width: 1000px) {
   img {
     max-height: 30vh;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .text {
+    padding: 8em 0 0 4em;
+  }
+  .mat-mdc-card-content {
+    padding-top: 5em;
+  }
+  .mat-mdc-raised-button {
+    margin-left: 5em;
+  }
+  img {
+    margin-top: 5em;
   }
 }
