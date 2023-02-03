@@ -1,0 +1,31 @@
+{
+  "list": [
+    {
+      "type": "Middle School",
+      "name": "9. srpska brigada",
+      "place": "Boljevac",
+      "department": "",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "from": "2013",
+      "to": "2005"
+    },
+    {
+      "type": "High School",
+      "name": "Nikola Tesla",
+      "place": "Boljevac",
+      "department": "Gymnasium",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "from": "2013",
+      "to": "2017"
+    },
+    {
+      "type": "University",
+      "name": "Faculty of Sciences And Mathematics",
+      "place": "Nis",
+      "department": "Computer Science",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "from": "2017",
+      "to": "present"
+    }
+  ]
+}

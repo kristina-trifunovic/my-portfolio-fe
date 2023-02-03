@@ -1,1 +1,16 @@
-<div class="vh-100"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-12" *ngFor="let education of educations">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>{{education.name}}</mat-card-title>
+          <mat-card-subtitle>{{education.type}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content class="d-flex align-items-center">
+          <span>Location: {{education.place}}</span>
+          <span>{{education.from}} - {{education.to}}</span>
+        </mat-card-content>
+      </mat-card>
+    </div>
+</div>
+</div>

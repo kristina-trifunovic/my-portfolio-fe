@@ -19,10 +19,12 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatCardModule} from '@angular/material/card';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {ClipboardModule} from '@angular/cdk/clipboard';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ShowEmailsDialogComponent } from './view/home/show-emails-dialog/show-emails-dialog.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,7 @@ import { ShowEmailsDialogComponent } from './view/home/show-emails-dialog/show-e
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     NgxPageScrollCoreModule.forRoot({ duration: 1600 }),
     BrowserAnimationsModule,
     MatToolbarModule,
@@ -46,6 +49,7 @@ import { ShowEmailsDialogComponent } from './view/home/show-emails-dialog/show-e
     MatSnackBarModule,
     MatDialogModule,
     MatCardModule,
+    MatSlideToggleModule,
     ClipboardModule,
     FontAwesomeModule,
   ],
