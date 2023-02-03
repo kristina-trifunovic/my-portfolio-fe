@@ -17,6 +17,15 @@ fa-icon {
   cursor: pointer;
 }
 
+.mat-mdc-raised-button {
+  margin: 1em 2em;
+  background-color: #A95ACB !important;
+  color: whitesmoke !important;
+  padding: 1em 0;
+  // width: 10em;
+  // height: 4em;
+}
+
 @media screen and (max-width: 1000px) {
   img {
     max-height: 30vh;

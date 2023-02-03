@@ -7,7 +7,7 @@
 <div class="container">
   <mat-card>
     <mat-card-content>
-      <div class="row align-items-center">
+      <div class="row">
         <div class="col-lg-8 col-md-12">
           <h1  class="display-2">Hi, I'm Kristina</h1>
           <p class="lead">Junior Full Stack Developer</p>
@@ -21,6 +21,9 @@
         <div class="col-lg-4 col-md-12 d-flex justify-content-center">
           <img src="../assets/images/portrait.png" class="img-fluid mask" alt="Portrait">
         </div>
+      </div>
+      <div class="row">
+        <button mat-raised-button (click)="downloadCV()" class="col-lg-2 col-4">Download my CV</button>
       </div>
     </mat-card-content>
   </mat-card>

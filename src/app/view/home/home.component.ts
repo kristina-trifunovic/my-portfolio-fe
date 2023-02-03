@@ -30,4 +30,8 @@ export class HomeComponent {
   navigateToLinkedIn() {
     window.open('https://rs.linkedin.com/in/kristinatrifunovic');
   }
+
+  downloadCV() {
+    
+  }
 }
