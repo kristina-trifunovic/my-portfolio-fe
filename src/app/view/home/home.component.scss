@@ -1,3 +1,5 @@
+$dark-purple: #6c55e0;
+
 .mat-mdc-card  {
   margin: 2rem;
   height: 80vh;
@@ -16,7 +18,7 @@ fa-icon {
 
 .mat-mdc-raised-button {
   margin: 1em 2em;
-  background-color: #A95ACB !important;
+  background-color: $dark-purple !important;
   color: whitesmoke !important;
   padding: 1em 0;
 }

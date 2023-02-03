@@ -61,3 +61,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   background-color: whitesmoke;
   color: #1a1a1a;
 }
+
+.row {
+  --bs-gutter-x: 0;
+}

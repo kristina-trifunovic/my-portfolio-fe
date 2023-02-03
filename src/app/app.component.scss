@@ -1,9 +1,15 @@
+$light-purple: #d2cbf6;
+
 section {
   height: 100vh;
 }
 
+.gradient-row {
+  background: linear-gradient(whitesmoke 0%, $light-purple 100%);
+}
+
 .row {
-  background-color: #Ead8f2;
+  background-color: $light-purple;
 }
 
 .mode {
