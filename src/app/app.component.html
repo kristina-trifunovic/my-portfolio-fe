@@ -1,4 +1,4 @@
-<section [ngClass]="{'dark': mode === modes.DARK, 'light': mode === modes.LIGHT}">
+<!-- <section [ngClass]="{'dark': mode === modes.DARK, 'light': mode === modes.LIGHT}">
   <home [mode]="mode"></home>
 </section>
 <section [ngClass]="{'dark': mode === modes.DARK, 'light': mode === modes.LIGHT}">
@@ -12,7 +12,33 @@
 </section>
 <section [ngClass]="{'dark': mode === modes.DARK, 'light': mode === modes.LIGHT}">
   <hobbies></hobbies>
-</section>
+</section> -->
+
+<div class="row">
+  <div class="col">
+    <home></home>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <education></education>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <work></work>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <projects></projects>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <hobbies></hobbies>
+  </div>
+</div>
 
 <div class="mode d-flex justify-content-end" (click)="switchTheme()">
   <fa-icon [icon]="icon"></fa-icon>

@@ -35,14 +35,14 @@ $my-portfolio-theme: mat.define-light-theme((
 
 @import "~bootstrap/dist/css/bootstrap.css";
 
-@font-face {
-  font-family: 'Inconsolata';
-  src: url('./assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf');
-}
+// @font-face {
+//   font-family: 'Inconsolata';
+//   src: url('./assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf');
+// }
 
 * {
   box-sizing: border-box;
-  font-family: 'Inconsolata';
+  // font-family: 'Inconsolata';
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
