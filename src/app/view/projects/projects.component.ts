@@ -19,4 +19,8 @@ export class ProjectsComponent implements OnInit {
   loadProjects() {
     this.projectsService.loadProjects().subscribe((data: any) => this.projects = data.list);
   }
+
+  goToRepository(link: string) {
+    window.open(link);
+  }
 }

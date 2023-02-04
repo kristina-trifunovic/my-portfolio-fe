@@ -2,24 +2,28 @@
   "list": [
     {
       "name": "Student Service BE",
+      "technologies": "Spring Boot, MySQL",
       "git": "https://github.com/kristina-trifunovic/student-service-be",
       "description": "This is a BE part (done in Spring Boot framework) of the application which contains a data for students, professors, exams, exam periods... Professor can add exam, student can apply to an exam, professor can then insert a grade for students exam.",
       "imageUrl": "./assets/images/projects/student-service-be.png"
     },
     {
       "name": "Student Service FE",
+      "technologies": "Angular, Bootstrap",
       "git": "https://github.com/kristina-trifunovic/student-service-fe",
       "description": "This is a FE part (done in Angular framework) of the application which contains a data for students, professors, exams, exam periods... Professor can add exam, student can apply to an exam, professor can then insert a grade for students exam.",
       "imageUrl": "./assets/images/projects/student-service-fe.png"
     },
     {
       "name": "Atersir Idrico FE",
+      "technologies": "Angular, Micro Frontend",
       "git": "",
       "description": "FE app for Italian company Atersir Idrico done in Angular using Micro-Frontends. App contains interceptors, custom pipes, custom components...",
       "imageUrl": "./assets/images/projects/atersir-idrico-fe.png"
     },
     {
       "name": "AngularJS app for a new company",
+      "technologies": "",
       "git": "",
       "description": "onboarding...",
       "imageUrl": "./assets/images/projects/angularjs.png"

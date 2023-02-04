@@ -19,7 +19,6 @@ export class WorkComponent implements OnInit{
   loadWork() {
     this.workService.loadWork().subscribe((data: any) => {
       this.workArray = data.list;
-      console.log(data.list);
     });
   }
 }

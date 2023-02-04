@@ -1,1 +1,16 @@
-<p>projects works!</p>
+<div class="row justify-content-center" style="margin: 6em 0;">
+  <h2 class="display-4 text-center">Projects</h2>
+  <mat-card class="col-lg-3 col-md-4 col-6" *ngFor="let project of projects">
+    <mat-card-header>
+      <mat-card-title>{{project.name}}</mat-card-title>
+      <!-- <mat-card-subtitle>{{project.technologies}}</mat-card-subtitle> -->
+    </mat-card-header>
+    <img mat-card-image [src]="project.imageUrl" alt="...">
+    <mat-card-content>
+      <p>{{project.technologies}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button *ngIf="project.git" mat-button (click)="goToRepository(project.git)">Go to repository</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
