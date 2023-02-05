@@ -16,7 +16,7 @@
     },
     {
       "name": "Atersir Idrico FE",
-      "technologies": "Angular, Micro Frontend",
+      "technologies": "Angular, Micro Frontend, Bootstrap",
       "git": "",
       "description": "FE app for Italian company Atersir Idrico done in Angular using Micro-Frontends. App contains interceptors, custom pipes, custom components...",
       "imageUrl": "./assets/images/projects/atersir-idrico-fe.png"

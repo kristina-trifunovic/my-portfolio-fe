@@ -9,7 +9,7 @@ import { HomeComponent } from './view/home/home.component';
 import { EducationComponent } from './view/education/education.component';
 import { WorkComponent } from './view/work/work.component';
 import { ProjectsComponent } from './view/projects/projects.component';
-import { HobbiesComponent } from './view/hobbies/hobbies.component';
+import { SkillsComponent } from './view/skills/skills.component';
 import { ContactComponent } from './view/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -20,7 +20,9 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatCardModule} from '@angular/material/card';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
-import {MatStepperModule} from '@angular/material/stepper'
+import {MatStepperModule} from '@angular/material/stepper';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {ClipboardModule} from '@angular/cdk/clipboard';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -34,7 +36,7 @@ import { HttpClientModule } from '@angular/common/http';
     EducationComponent,
     WorkComponent,
     ProjectsComponent,
-    HobbiesComponent,
+    SkillsComponent,
     ContactComponent,
     ShowEmailsDialogComponent
   ],
@@ -52,6 +54,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatCardModule,
     MatSlideToggleModule,
     MatStepperModule,
+    MatExpansionModule,
+    MatProgressBarModule,
     ClipboardModule,
     FontAwesomeModule,
   ],

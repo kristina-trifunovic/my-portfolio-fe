@@ -40,14 +40,14 @@ $my-portfolio-theme: mat.define-light-theme((
 //   src: url('./assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf');
 // }
 
-@font-face {
-  font-family: 'FredokaOne';
-  src: url(./assets/fonts/FredokaOne-Regular.ttf);
-}
+// @font-face {
+//   font-family: 'FredokaOne';
+//   src: url(./assets/fonts/FredokaOne-Regular.ttf);
+// }
 
 * {
   box-sizing: border-box;
-  font-family: 'FredokaOne';
+  // font-family: 'FredokaOne';
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
