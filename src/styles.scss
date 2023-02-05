@@ -28,12 +28,16 @@ $my-portfolio-theme: mat.define-light-theme((
   )
 ));
 
+$light-purple: #d2cbf6;
+
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include mat.all-component-themes($my-portfolio-theme);
 
 @import "~bootstrap/dist/css/bootstrap.css";
+
+@import 'mdb-ui-kit/src/scss/mdb.free.scss';
 
 // @font-face {
 //   font-family: 'Inconsolata';
@@ -62,6 +66,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   color: #1a1a1a;
 }
 
-.row {
-  --bs-gutter-x: 0;
+// .row {
+//   --bs-gutter-x: 0;
+//   --mdb-gutter-x: 0;
+// }
+
+app-root {
+  background-color: $light-purple;
 }
