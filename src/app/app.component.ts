@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-import { Inject } from '@angular/core';
-import { DOCUMENT } from '@angular/common';
-import { PageScrollService } from 'ngx-page-scroll-core';
 import { faAddressBook, faEnvelope, faMoon, faSun } from '@fortawesome/free-regular-svg-icons';
 import { faInstagram, faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
@@ -22,17 +19,10 @@ export class AppComponent {
   envelope = faEnvelope;
   addressBook = faAddressBook;
 
-  constructor(
-    private pageScrollService: PageScrollService,
-    @Inject(DOCUMENT) private document: any
-  ) {}
-  
-  fullPageScroll(e: HTMLElement, i:any) {
-    this.pageScrollService.scroll({
-      scrollTarget: e,
-      document: this.document,
-    });
-    this.activeSection = i;
+  constructor() {}
+
+  scroll(el : HTMLElement) {
+    el.scrollIntoView();
   }
 
   switchTheme() {
