@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { PageScrollService } from 'ngx-page-scroll-core';
-import { faMoon, faSun } from '@fortawesome/free-regular-svg-icons';
+import { faAddressBook, faEnvelope, faMoon, faSun } from '@fortawesome/free-regular-svg-icons';
+import { faInstagram, faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,12 @@ export class AppComponent {
   activeSection = 1;
   mode = MODE.LIGHT;
   modes = MODE;
+  ig = faInstagram;
+  linkedIn = faLinkedin;
+  gitHub = faGithub;
+  fb = faFacebook;
+  envelope = faEnvelope;
+  addressBook = faAddressBook;
 
   constructor(
     private pageScrollService: PageScrollService,

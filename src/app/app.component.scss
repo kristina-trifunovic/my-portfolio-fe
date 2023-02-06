@@ -1,8 +1,5 @@
 $light-purple: #d2cbf6;
-
-section {
-  height: 100vh;
-}
+$dark-purple: #6c55e0;
 
 .gradient-row {
   background: linear-gradient(whitesmoke 0%, $light-purple 100%);
@@ -20,4 +17,9 @@ section {
   :hover {
     cursor: pointer;
   }
+}
+
+.bg-purple {
+  background-color: $dark-purple;
+  color: whitesmoke;
 }
