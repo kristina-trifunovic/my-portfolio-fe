@@ -1,11 +1,17 @@
-$light-purple: #d2cbf6;
-$dark-purple: #6c55e0;
+$lighter-purple: #cabfdf;
+$light-purple: #b4a4e4;
+$dark-purple: #e4a4c7;
 
-.gradient-row {
-  background: linear-gradient(whitesmoke 0%, $light-purple 100%);
+.toolbar-fixed {
+  position: fixed;
+  z-index: 997;
 }
 
-.row {
+.gradient-row {
+  background: linear-gradient($lighter-purple 0%, $light-purple 100%);
+}
+
+.bg-light-purple {
   background-color: $light-purple;
 }
 

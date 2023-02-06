@@ -1,42 +1,40 @@
-<!-- <section [ngClass]="{'dark': mode === modes.DARK, 'light': mode === modes.LIGHT}">
-  <home [mode]="mode"></home>
-</section>
-<section [ngClass]="{'dark': mode === modes.DARK, 'light': mode === modes.LIGHT}">
-  <education></education>
-</section>
-<section [ngClass]="{'dark': mode === modes.DARK, 'light': mode === modes.LIGHT}">
-  <work></work>
-</section>
-<section [ngClass]="{'dark': mode === modes.DARK, 'light': mode === modes.LIGHT}">
-  <projects></projects>
-</section>
-<section [ngClass]="{'dark': mode === modes.DARK, 'light': mode === modes.LIGHT}">
-  <hobbies></hobbies>
-</section> -->
-<div class="container">
-  <div class="row gradient-row">
-    <div class="col">
-      <home></home>
+<mat-toolbar class="navbar navbar-expand-lg d-flex justify-content-around toolbar-fixed">
+  <button mat-button>Education</button>
+  <button mat-button>Work</button>
+  <button mat-button>Projects</button>
+  <button mat-button>Skills</button>
+</mat-toolbar>
+
+<div class="gradient-row">
+  <div class="container">
+    <div class="row gradient-row">
+      <div class="col">
+        <home></home>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col">
-      <education></education>
+</div>
+<div class="bg-light-purple">
+  <div class="container">
+    <div class="row bg-light-purple">
+      <div class="col">
+        <education></education>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <work></work>
+    <div class="row bg-light-purple">
+      <div class="col">
+        <work></work>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <projects></projects>
+    <div class="row bg-light-purple">
+      <div class="col">
+        <projects></projects>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <skills></skills>
+    <div class="row bg-light-purple">
+      <div class="col">
+        <skills></skills>
+      </div>
     </div>
   </div>
 </div>
@@ -52,26 +50,14 @@
     </div>
 
     <div>
-      <a href="" class="me-4 link-secondary">
-        <!-- <i class="fab fa-facebook-f"></i> -->
-        <fa-icon [icon]="fb"></fa-icon>
-      </a>
-      <a href="https://www.instagram.com/kika.trifunovic" class="me-4 link-secondary">
-        <!-- <i class="fab fa-instagram"></i> -->
-        <fa-icon [icon]="ig"></fa-icon>
-      </a>
-      <a href="https://rs.linkedin.com/in/kristinatrifunovic" class="me-4 link-secondary">
-        <!-- <i class="fab fa-linkedin"></i> -->
-        <fa-icon [icon]="linkedIn"></fa-icon>
-      </a>
-      <a href="https://github.com/kristina-trifunovic" class="me-4 link-secondary">
-        <!-- <i class="fab fa-github"></i> -->
-        <fa-icon [icon]="gitHub"></fa-icon>
-      </a>
+      <a href="https://www.facebook.com/kikatrifunovic1" class="me-4 link-secondary"><fa-icon [icon]="fb"></fa-icon></a>
+      <a href="https://www.instagram.com/kika.trifunovic" class="me-4 link-secondary"><fa-icon [icon]="ig"></fa-icon></a>
+      <a href="https://rs.linkedin.com/in/kristinatrifunovic" class="me-4 link-secondary"><fa-icon [icon]="linkedIn"></fa-icon></a>
+      <a href="https://github.com/kristina-trifunovic" class="me-4 link-secondary"><fa-icon [icon]="gitHub"></fa-icon></a>
     </div>
   </section>
 
-  <section class="">
+  <section>
     <div class="container text-center text-md-start mt-5">
       <div class="row mt-3 bg-purple">
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
